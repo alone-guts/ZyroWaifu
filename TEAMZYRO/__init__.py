@@ -24,9 +24,9 @@ def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
 
 # ---------------------------- CONSTANTS ---------------------------------
-api_id = os.getenv("API_ID", "24965086")
-api_hash = os.getenv("API_HASH", "b9c764ce47c010e1a887f19fea54f648")
-TOKEN = os.getenv("TOKEN", "7687059872:AAFUheD7rLuymtk3ItAydrhWjw4CDZ8YuAE")
+api_id = os.getenv("API_ID", "29139400")
+api_hash = os.getenv("API_HASH", "7aa646b7e344faaba3719ae688cc5ce5")
+TOKEN = os.getenv("TOKEN", "7211561601:AAGWRYFXBFrizVjoM6dEZ2_eP-fQs3WyGYE")
 GLOG = os.getenv("GLOG", "Zlog12")
 CHARA_CHANNEL_ID = os.getenv("CHARA_CHANNEL_ID", "Zlog12")
 SUPPORT_CHAT_ID = os.getenv("SUPPORT_CHAT_ID", "-1002309742084")
