@@ -45,7 +45,7 @@ STATS_IMG = ["https://files.catbox.moe/gknnju.jpg"]
 SUPPORT_CHAT = os.getenv("SUPPORT_CHAT", "https://t.me/Zyroupdates")
 UPDATE_CHAT = os.getenv("UPDATE_CHAT", "https://t.me/ZyroBotCodes")
 SUDO = list(map(int, os.getenv("SUDO", "7577185215,5749187175").split(',')))
-OWNER_ID = int(os.getenv("OWNER_ID", "7073835511"))
+OWNER_ID = int(os.getenv("OWNER_ID", "6474226725"))
 
 # --------------------- TELEGRAM BOT CONFIGURATION -----------------------
 command_filter = f.create(lambda _, __, message: message.text and message.text.startswith("/"))
