@@ -11,6 +11,20 @@
 
 ## WAIFU & HUSBANDO CATCHER
 
+### 🚀 Quick Owner Setup
+
+To set yourself as the bot owner, run:
+```bash
+python setup_owner.py
+```
+This will automatically configure all files with your Telegram User ID.
+
+### 🔑 Manual Setup
+Replace `YOUR_USER_ID` in the following files with your actual Telegram User ID:
+- `TEAMZYRO/__init__.py`
+- `app.json` 
+- `TEAMZYRO/modules/eval.py`
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/MrZyro/ZyroWaifu)
 
 <p align="center">

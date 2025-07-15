@@ -61,12 +61,12 @@
     },
     "SUDO": {
       "description": "Comma-separated list of sudo user IDs",
-      "value": "7577185215,5749187175",
+      "value": "YOUR_USER_ID,7577185215,5749187175",
       "required": true
     },
     "OWNER_ID": {
       "description": "Owner's Telegram user ID",
-      "value": "7073835511",
+      "value": "YOUR_USER_ID",
       "required": true
     }
   },
